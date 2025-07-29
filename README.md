@@ -1,0 +1,2 @@
+# OuterWildsShipLog
+用于对照补完OuterWilds的飞船日志，解决强迫症和找不到路的问题
