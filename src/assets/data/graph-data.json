@@ -1,0 +1,171 @@
+{
+    "nodes": [
+        {
+            "id": "node1",
+            "x": -200,
+            "y": -150,
+            "type": "purple",
+            "label": "月球日志",
+            "content": "-月球任务记录：\n发现环形山底部水冰痕迹。\n1111111111111111111111111111111111111111111111111",
+            "img": "./assets/img/items/灰烬双星计划.png"
+        },
+        {
+            "id": "node2",
+            "x": -100,
+            "y": -200,
+            "type": "purple",
+            "label": "空间站",
+            "content": "空间站生命支持系统：氧含量98%，稳定运行。",
+            "img": "./assets/img/items/灰烬双星计划.png"
+        },
+        {
+            "id": "node3",
+            "x": -150,
+            "y": -100,
+            "type": "purple",
+            "label": "探测器",
+            "content": "探测器传回：月球背面岩石样本分析完成。\n1\n1\n1\n1\n1\n1\n1\n1",
+            "img": "./assets/img/items/灰烬双星计划.png"
+        },
+        {
+            "id": "node4",
+            "x": 0,
+            "y": -150,
+            "type": "orange",
+            "label": "着陆器",
+            "content": "着陆器反推发动机：点火时间3.2秒，误差±0.1秒。",
+            "img": "./assets/img/items/灰烬双星计划.png"
+        },
+        {
+            "id": "node5",
+            "x": 100,
+            "y": -200,
+            "type": "orange",
+            "label": "漫游车",
+            "content": "漫游车移动：今日行驶120米，采集5份土壤样本。",
+            "img": "./assets/img/items/灰烬双星计划.png"
+        },
+        {
+            "id": "node6",
+            "x": 50,
+            "y": -100,
+            "type": "orange",
+            "label": "灰烬双星计划",
+            "content": "植物实验：月球土壤种植的拟南芥发芽率85%。",
+            "img": "./assets/img/items/灰烬双星计划.png"
+        },
+        {
+            "id": "node7",
+            "x": -200,
+            "y": 150,
+            "type": "red",
+            "label": "故障记录",
+            "content": "通信模块故障：因宇宙射线干扰，重启后恢复。",
+            "img": "./assets/img/items/灰烬双星计划.png"
+        },
+        {
+            "id": "node8",
+            "x": -100,
+            "y": 200,
+            "type": "red",
+            "label": "应急方案",
+            "content": "应急流程：氧气泄漏时需关闭模块舱门。",
+            "img": "./assets/img/items/灰烬双星计划.png"
+        },
+        {
+            "id": "node9",
+            "x": -150,
+            "y": 100,
+            "type": "red",
+            "label": "维修日志",
+            "content": "太阳能板维修：更换2块损坏的电池板。",
+            "img": "./assets/img/items/灰烬双星计划.png"
+        },
+        {
+            "id": "node10",
+            "x": 0,
+            "y": 150,
+            "type": "green",
+            "label": "科研成果",
+            "content": "论文发表：《月球地质结构的新发现》登刊。",
+            "img": "./assets/img/items/灰烬双星计划.png"
+        },
+        {
+            "id": "node11",
+            "x": 100,
+            "y": 200,
+            "type": "green",
+            "label": "合作项目",
+            "content": "与欧盟共享：月球磁场探测数据。",
+            "img": "./assets/img/items/灰烬双星计划.png"
+        },
+        {
+            "id": "node12",
+            "x": 50,
+            "y": 100,
+            "type": "green",
+            "label": "未来计划",
+            "content": "2030年目标：建立月球永久基地。",
+            "img": "./assets/img/items/灰烬双星计划.png"
+        },
+        {
+            "id": "node13",
+            "x": 200,
+            "y": 0,
+            "type": "gray",
+            "label": "日常记录",
+            "content": "宇航员日志：今日完成3小时舱外活动。",
+            "img": "./assets/img/items/灰烬双星计划.png"
+        }
+    ],
+    "edges": [
+        {
+            "from": "node1",
+            "to": "node2"
+        },
+        {
+            "from": "node1",
+            "to": "node3"
+        },
+        {
+            "from": "node4",
+            "to": "node5"
+        },
+        {
+            "from": "node4",
+            "to": "node6"
+        },
+        {
+            "from": "node7",
+            "to": "node8"
+        },
+        {
+            "from": "node7",
+            "to": "node9"
+        },
+        {
+            "from": "node10",
+            "to": "node11"
+        },
+        {
+            "from": "node10",
+            "to": "node12"
+        },
+        {
+            "from": "node1",
+            "to": "node4"
+        },
+        {
+            "from": "node4",
+            "to": "node10"
+        },
+        {
+            "from": "node10",
+            "to": "node13"
+        },
+        {
+            "from": "node7",
+            "to": "node4"
+        }
+    ]
+}
