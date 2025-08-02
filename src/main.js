@@ -26,10 +26,10 @@ contentGroup.add(nodesGroup)
 
 // 2. 数据定义（按照颜色分区）
 const nodeTypes = {
-    purple: { color: '#8e44ad', label: '量子卫星探索' },
-    orange: { color: '#f39c12', label: '灰烬双星计划' },
-    green: { color: '#27ae60', label: '寻找宇宙之眼' },
-    red: { color: '#e74c3c', label: '挪麦科技' },
+    purple: { color: '#7b4e8eff', label: '量子卫星探索' },
+    orange: { color: '#d29532ff', label: '灰烬双星计划' },
+    green: { color: '#359a5fff', label: '寻找宇宙之眼' },
+    red: { color: '#e74c3c', label: '挪麦生活' },
     gray: { color: '#95a5a6', label: '过渡记录' },
 };
 
@@ -81,6 +81,7 @@ async function preloadNodeImages() {
         console.error('图片预加载失败：', err)
     }
 }
+
 function drawNodes() {
     nodes.forEach(node => {
         // 节点容器组（位置由 node.x/node.y 决定）
@@ -92,54 +93,49 @@ function drawNodes() {
         })
 
         // ---------------------- 1. 标题栏区域 ----------------------
-        const titleHeight = 24 // 标题栏高度
+        const titleHeight = node.width * 0.35 // 标题栏高度
         const titleRect = new Konva.Rect({
-            width: 120,          // 节点总宽度（可调整）
+            width: node.width,          // 节点总宽度（可调整）
             height: titleHeight,
             fill: nodeTypes[node.type].color, // 标题栏背景色（匹配节点类型）
-            stroke: '#fff',      // 白色边框
             strokeWidth: 1,
             shadowColor: nodeTypes[node.type].color, // 阴影颜色
-            shadowBlur: 12,      // 阴影模糊度
+            shadowBlur: 1,      // 阴影模糊度
             shadowOpacity: 0.6,  // 阴影透明度
-            shadowOffsetX: 2,    // 阴影偏移（增强立体感）
-            shadowOffsetY: 2,
         })
 
         const titleText = new Konva.Text({
             text: node.label,    // 标题文字（如“灰烬双星计划”）
-            fontSize: 14,
-            fill: '#fff',        // 文字白色
+            fontSize: 22 * (node.width / 160),
+            fill: '#353535ff',        // 文字白色
             align: 'center',     // 水平居中
             verticalAlign: 'middle', // 垂直居中
-            width: 120,
+            width: node.width,
             height: titleHeight,
             fontStyle: 'bold',   // 加粗
             fontFamily: '微软雅黑, sans-serif', // 中文适配字体
         })
 
         // ---------------------- 2. 内容区域（图片容器） ----------------------
-        const contentHeight = 56 // 内容区高度（总节点高度=24+56=80）
         const contentRect = new Konva.Rect({
-            y: titleHeight,      // 内容区在标题栏下方
-            width: 120,
-            height: contentHeight,
-            fill: '#1a1a1a',     // 深色背景（匹配示例图风格）
-            stroke: '#fff',      // 白色边框
+            y: titleHeight - 1,      // 内容区在标题栏下方
+            width: node.width,
+            height: node.height,
+            fill: nodeTypes[node.type].color,     // 深色背景（匹配示例图风格）
             strokeWidth: 1,
         })
 
-        // ---------------------- 3. 内容图片（适配+黑白滤镜） ----------------------
+        // ---------------------- 3. 内容图片（适配） ----------------------
         const img = node.image // 预加载好的图片对象
-        const containerW = 120 // 内容区宽度
-        const containerH = contentHeight // 内容区高度
+        const containerW = node.width * 0.95 // 内容区宽度
+        const containerH = node.height * 0.95 // 内容区高度
 
         // 计算图片缩放比例（保持比例，避免拉伸）
         const scale = Math.min(containerW / img.width, containerH / img.height)
         const drawW = img.width * scale // 图片绘制宽度
         const drawH = img.height * scale // 图片绘制高度
-        const offsetX = (containerW - drawW) / 2 // 水平居中偏移
-        const offsetY = (containerH - drawH) / 2 // 垂直居中偏移
+        const offsetX = 0.05 * node.width / 2 // 水平居中偏移
+        const offsetY = 0.05 * node.height / 2 // 垂直居中偏移
 
         const contentImage = new Konva.Image({
             x: offsetX,          // 图片水平居中
@@ -147,9 +143,6 @@ function drawNodes() {
             width: drawW,
             height: drawH,
             image: img,
-            filters: [Konva.Filters.Grayscale], // 黑白滤镜（匹配示例图风格）
-            grayscale: 1,        // 全黑白（0=彩色，1=全灰）
-            opacity: 0.9,        // 轻微透明（增强质感）
         })
 
         // ---------------------- 4. 交互效果（可选） ----------------------
@@ -202,7 +195,7 @@ function drawEdges() {
         const line = new Konva.Line({
             points: [fromCenter.x, fromCenter.y, toCenter.x, toCenter.y],
             stroke: '#bfbfbf',
-            strokeWidth: 2,
+            strokeWidth: 5,
             lineCap: 'round',
             opacity: 0.7,
         });

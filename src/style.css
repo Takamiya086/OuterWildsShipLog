@@ -29,6 +29,7 @@ body {
 }
 
 .detail-popup div {
+    color: #bfbfbf;
     font-size: 32px;
     font-weight: bold;
     white-space: pre-line;

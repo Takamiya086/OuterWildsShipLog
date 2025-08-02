@@ -1,171 +1,103 @@
 {
     "nodes": [
         {
-            "id": "node1",
-            "x": -200,
-            "y": -150,
-            "type": "purple",
-            "label": "月球日志",
-            "content": "-月球任务记录：\n发现环形山底部水冰痕迹。\n1111111111111111111111111111111111111111111111111",
-            "img": "./assets/img/items/灰烬双星计划.png"
-        },
-        {
-            "id": "node2",
-            "x": -100,
-            "y": -200,
-            "type": "purple",
-            "label": "空间站",
-            "content": "空间站生命支持系统：氧含量98%，稳定运行。",
-            "img": "./assets/img/items/灰烬双星计划.png"
-        },
-        {
-            "id": "node3",
-            "x": -150,
-            "y": -100,
-            "type": "purple",
-            "label": "探测器",
-            "content": "探测器传回：月球背面岩石样本分析完成。\n1\n1\n1\n1\n1\n1\n1\n1",
-            "img": "./assets/img/items/灰烬双星计划.png"
-        },
-        {
-            "id": "node4",
-            "x": 0,
-            "y": -150,
-            "type": "orange",
-            "label": "着陆器",
-            "content": "着陆器反推发动机：点火时间3.2秒，误差±0.1秒。",
-            "img": "./assets/img/items/灰烬双星计划.png"
-        },
-        {
-            "id": "node5",
-            "x": 100,
-            "y": -200,
-            "type": "orange",
-            "label": "漫游车",
-            "content": "漫游车移动：今日行驶120米，采集5份土壤样本。",
-            "img": "./assets/img/items/灰烬双星计划.png"
-        },
-        {
-            "id": "node6",
+            "id": "AT-AshTwinProject",
             "x": 50,
             "y": -100,
+            "width": 160,
+            "height": 160,
             "type": "orange",
             "label": "灰烬双星计划",
-            "content": "植物实验：月球土壤种植的拟南芥发芽率85%。",
+            "content": "灰烬双星内部被挖出了一个空舱室。能量缆线从地面接下来，插在这颗行星中央的保护外壳上。\n有八座巨石戴着挪麦面具。其中三副面具正在分别从探测器跟踪模块、深巨星和木炉星主动接收传来的数据。\n灰烬双星计划的目的是通过一颗（太阳站触发的）超新星的能量，将轨道探测炮的探测数据送往22分钟前的过去。\n太阳站没能起作用。尽管灰烬双星计划在理论上是可行的，但是挪麦人无法提供足够的动力。\n行星中央的保护外壳内部有一颗高级跃迁核心。移除核心将会关闭灰烬双星计划。",
             "img": "./assets/img/items/灰烬双星计划.png"
         },
         {
-            "id": "node7",
-            "x": -200,
-            "y": 150,
-            "type": "red",
-            "label": "故障记录",
-            "content": "通信模块故障：因宇宙射线干扰，重启后恢复。",
-            "img": "./assets/img/items/灰烬双星计划.png"
+            "id": "ET-HighEnergyLab",
+            "x": -25,
+            "y": -360,
+            "width": 100,
+            "height": 100,
+            "type": "orange",
+            "label": "高能实验室",
+            "content": "挪麦人成功地再现了在白洞站首次观察到的时间异常现象（跃迁对象抵达的时间比离开的时间好像要早）。\n挪麦人发现，他们可以通过增加跃迁核心的能量，来扩大抵达和离开之间的时间倒流间隔。\n挪麦人想知道，他们是否能够制造出一个22分钟的时间倒流间隔。他们得出结论，实现这一目标需要一种能够产生必要能量的新技术，还需要一颗能够处理这些能量的高级跃迁核心。他们提议将灰烬双星作为该计划的选址。",
+            "img": "./assets/img/items/高能实验室.png"
         },
         {
-            "id": "node8",
-            "x": -100,
+            "id": "BH-BlackHoleForge",
+            "x": -140,
+            "y": 180,
+            "width": 100,
+            "height": 100,
+            "type": "orange",
+            "label": "黑洞熔炉",
+            "content": "跃迁塔的对准点不是它的跃迁接收点。跃迁塔会始终对准对应天体的中心。\n跃迁接收点必须位于相关天体上（或在它的相邻轨道中）。\n沙漏双星离得特别近，就像一个天体一样，它们共用的对准点就在双星之间。\n所有跃迁塔都会建在灰烬双星上，但六个跃迁接收点会建在不同的位置。\n一个叫做珀克的挪麦人成功地为灰烬双星计划铸造出了一颗高级跃迁核心。",
+            "img": "./assets/img/items/黑洞熔炉.png"
+        },
+        {
+            "id": "GD-StatueIsland",
+            "x": 330,
+            "y": -310,
+            "width": 100,
+            "height": 100,
+            "type": "orange",
+            "label": "雕像岛",
+            "content": "那些雕像和我们在天文台里的那座一样。一定是挪麦人在这座岛上制作了它们。\n我发现海滩上躺着一座挪麦雕像。它看起来和我们天文台里的那座没什么两样。",
+            "img": "./assets/img/items/雕像岛.png"
+        },
+        {
+            "id": "GD-StatueWorkshop",
+            "x": 300,
+            "y": -220,
+            "width": 60,
+            "height": 60,
+            "type": "orange",
+            "label": "雕塑车间",
+            "content": "挪麦雕像的作用是和单一使用者进行匹配，记录他们的回忆，将那些回忆送到灰烬双星计划中的存储单元里。\n灰烬双星计划里的每个存储单元都配有一副面具（和雕像配对），然后就可以将那些存储起来的回忆重新发送给相应的使用者。\n那些雕像只有在灰烬双星计划成功后才会启动，或者在它失败的时候也会启动。",
+            "img": "./assets/img/items/雕塑车间.png"
+        },
+        {
+            "id": "TH-NomaiMines",
+            "x": 280,
             "y": 200,
-            "type": "red",
-            "label": "应急方案",
-            "content": "应急流程：氧气泄漏时需关闭模块舱门。",
-            "img": "./assets/img/items/灰烬双星计划.png"
+            "width": 100,
+            "height": 100,
+            "type": "orange",
+            "label": "挪麦矿井",
+            "content": "挪麦人从这里开采矿石，然后拿去建造保护外壳，以便将灰烬双星的中央舱室与外界物理隔绝。\n保护外壳一经完成，挪麦人便对其进行检查，确认其上没有裂缝，也没有任何与内部物理接触的方式。\n挪麦人在矿井附近的航道里发现了一个长着四只眼睛的半水生物种。",
+            "img": "./assets/img/items/挪麦矿井.png"
         },
         {
-            "id": "node9",
-            "x": -150,
-            "y": 100,
-            "type": "red",
-            "label": "维修日志",
-            "content": "太阳能板维修：更换2块损坏的电池板。",
-            "img": "./assets/img/items/灰烬双星计划.png"
-        },
-        {
-            "id": "node10",
-            "x": 0,
-            "y": 150,
-            "type": "green",
-            "label": "科研成果",
-            "content": "论文发表：《月球地质结构的新发现》登刊。",
-            "img": "./assets/img/items/灰烬双星计划.png"
-        },
-        {
-            "id": "node11",
-            "x": 100,
+            "id": "HL-VolcanicTestingSite",
+            "x": 450,
             "y": 200,
-            "type": "green",
-            "label": "合作项目",
-            "content": "与欧盟共享：月球磁场探测数据。",
-            "img": "./assets/img/items/灰烬双星计划.png"
-        },
-        {
-            "id": "node12",
-            "x": 50,
-            "y": 100,
-            "type": "green",
-            "label": "未来计划",
-            "content": "2030年目标：建立月球永久基地。",
-            "img": "./assets/img/items/灰烬双星计划.png"
-        },
-        {
-            "id": "node13",
-            "x": 200,
-            "y": 0,
-            "type": "gray",
-            "label": "日常记录",
-            "content": "宇航员日志：今日完成3小时舱外活动。",
-            "img": "./assets/img/items/灰烬双星计划.png"
+            "width": 100,
+            "height": 100,
+            "type": "orange",
+            "label": "火山测试点",
+            "content": "从木炉星的挪麦矿井里提取的矿石样本会送到这座火山来进行耐久度测试。\n挪麦人计划打造一个（短暂）隔绝超新星的保护壳，以此来保护灰烬双星计划。\n保护外壳上哪怕出现最微小的裂缝，也会让一切都前功尽弃。",
+            "img": "./assets/img/items/火山测试点.png"
         }
     ],
     "edges": [
         {
-            "from": "node1",
-            "to": "node2"
+            "from": "ET-HighEnergyLab",
+            "to": "AT-AshTwinProject"
         },
         {
-            "from": "node1",
-            "to": "node3"
+            "from": "BH-BlackHoleForge",
+            "to": "AT-AshTwinProject"
         },
         {
-            "from": "node4",
-            "to": "node5"
+            "from": "GD-StatueWorkshop",
+            "to": "AT-AshTwinProject"
         },
         {
-            "from": "node4",
-            "to": "node6"
+            "from": "TH-NomaiMines",
+            "to": "AT-AshTwinProject"
         },
         {
-            "from": "node7",
-            "to": "node8"
-        },
-        {
-            "from": "node7",
-            "to": "node9"
-        },
-        {
-            "from": "node10",
-            "to": "node11"
-        },
-        {
-            "from": "node10",
-            "to": "node12"
-        },
-        {
-            "from": "node1",
-            "to": "node4"
-        },
-        {
-            "from": "node4",
-            "to": "node10"
-        },
-        {
-            "from": "node10",
-            "to": "node13"
-        },
-        {
-            "from": "node7",
-            "to": "node4"
+            "from": "HL-VolcanicTestingSite",
+            "to": "TH-NomaiMines"
         }
     ]
 }
