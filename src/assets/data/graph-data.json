@@ -274,6 +274,149 @@
             "label": "湖床洞穴",
             "content": "另一个挪麦人的灯熄灭的时候，一个叫做科利耶斯的挪麦人正站在流浪岩石上。当他再次把灯点亮的时候，科利耶斯和那块岩石就都不见了。\n我必须站在量子对象上，停止观察我的周围（也就是说我必须完全处于黑暗之中），才能和该对象一起移动。科利耶斯利用这条量子法则从被困的洞穴里逃了出来。\n科利耶斯和梅洛瑞回来再次查看那块岩石。他们提出一个理论，假如一个有意识的存在接触到一个量子对象，并且停止观察自己的周围，那么该存在就能和量子对象进入纠缠态，从而一起移动。",
             "img": "./assets/img/items/湖床洞穴.png"
+        },
+        {
+            "id": "BH-TheHangingCity",
+            "x": -140,
+            "y": 670,
+            "width": 100,
+            "height": 100,
+            "type": "gray",
+            "label": "悬空城",
+            "content": "一座悬挂在碎空星北部冰川下的挪麦城市。这座城市被分成四个垂直区划。\n我在融水区找到了一个可以升降黑洞熔炉的开关。\n灰烬双星计划需要一颗威力强大的高级跃迁核心，挪麦人曾经就如何才能得到它展开过一系列争论。\n挪麦人为了追寻某个信号，所以才来到了这个太阳系。那个信号是从某个比宇宙还要古老的地方发出来的。他们将信号的源头称为“宇宙之眼”。",
+            "img": "./assets/img/items/悬空城.png"
+        },
+        {
+            "id": "ET-TheSunlessCity",
+            "x": -760,
+            "y": 150,
+            "width": 100,
+            "height": 100,
+            "type": "gray",
+            "label": "背阴城",
+            "content": "一座挪麦城市，建立在由巨型地下洞窟组成的城墙里。这座城市被分成四个垂直区划。\n挪麦人曾经考虑过建造一座太阳站，来为灰烬双星计划提供动力。有些挪麦人反对这个提议，辩驳称建造失败可能会导致这个太阳系的毁灭。\n挪麦人为了追寻某个信号，所以才来到了这个太阳系。那个信号是从某个比宇宙还要古老的地方发出来的。他们将信号的源头称为“宇宙之眼”。",
+            "img": "./assets/img/items/背阴城.png"
+        },
+        {
+            "id": "ET-AnglerfishFossil",
+            "x": -630,
+            "y": 480,
+            "width": 100,
+            "height": 100,
+            "type": "red",
+            "label": "安康鱼化石",
+            "content": "挪麦人的孩子们以前在这里玩游戏。其中一个人会戴上眼罩，当安康鱼。其他的孩子们（小鱼）靠着一面墙排成一排。安康鱼说开始，小鱼就必须悄悄地跑到另一边去。\n之所以加入眼罩这个规则，是因为真正的安康鱼就是看不见的。\n成年挪麦人很高兴看到孩子们把他们的研究运用到了游戏规则里去。",
+            "img": "./assets/img/items/安康鱼化石.png"
+        },
+        {
+            "id": "ET-ChertsCamp",
+            "x": -1100,
+            "y": 180,
+            "width": 100,
+            "height": 100,
+            "type": "gray",
+            "label": "切特的营地",
+            "content": "切特在余烬双星的北极安设好了自己的天文器材。\n切特发现最近超新星的数量高得不寻常。\n宇宙里所有的恒星都在死亡，我们的太阳也不例外。\n这些恒星只是走到了生命的尽头，所以才会死亡。很显然，它们比我们以为得还要古老。\n我们的太阳即将走向终结，这让切特紧张不已。",
+            "img": "./assets/img/items/切特的营地.png"
+        },
+        {
+            "id": "ET-EscapePod2",
+            "x": -1020,
+            "y": 560,
+            "width": 100,
+            "height": 100,
+            "type": "red",
+            "label": "2号逃生舱",
+            "content": "三个挪麦逃生舱里，有一个坠毁在了我们的太阳系。\n所有三个逃生舱都是从某个损坏严重、名叫飞船的东西发射出来的。",
+            "img": "./assets/img/items/2号逃生舱.png"
+        },
+        {
+            "id": "BH-OldSettlement",
+            "x": -700,
+            "y": 670,
+            "width": 100,
+            "height": 100,
+            "type": "red",
+            "label": "旧定居点",
+            "content": "挪麦人在失事逃生舱的下方建造了一个临时的定居点。\n这些挪麦人一同回想起了在飞船上遭遇的一个信号，它的形状好像眼睛一样。\n那个信号比宇宙本身还要古老。挪麦人决定将其称为“宇宙之眼”。\n由于担心定居点不够稳固，挪麦人放弃了它。",
+            "img": "./assets/img/items/旧定居点.png"
+        },
+        {
+            "id": "BH-Mural(Panel3)",
+            "x": -725,
+            "y": 780,
+            "width": 60,
+            "height": 60,
+            "type": "red",
+            "label": "壁画（第3块）",
+            "content": "一幅三个逃生舱从挪麦飞船里撤离的壁画。",
+            "img": "./assets/img/items/壁画（第3块）.png"
+        },
+        {
+            "id": "BH-Mural(Panel2)",
+            "x": -795,
+            "y": 780,
+            "width": 60,
+            "height": 60,
+            "type": "red",
+            "label": "壁画（第2块）",
+            "content": "一幅黑棘星缠住挪麦飞船的壁画。",
+            "img": "./assets/img/items/壁画（第2块）.png"
+        },
+        {
+            "id": "BH-Mural(Panel1)",
+            "x": -865,
+            "y": 780,
+            "width": 60,
+            "height": 60,
+            "type": "red",
+            "label": "壁画（第1块）",
+            "content": "一幅挪麦飞船遭遇信号的壁画。",
+            "img": "./assets/img/items/壁画（第1块）.png"
+        },
+        {
+            "id": "BH-EscapePod1",
+            "x": -525,
+            "y": 820,
+            "width": 100,
+            "height": 100,
+            "type": "red",
+            "label": "1号逃生舱",
+            "content": "三个挪麦逃生舱里，有一个坠毁在了我们的太阳系。\n所有三个逃生舱都是从某个损坏严重、名叫飞船的东西发射出来的.。",
+            "img": "./assets/img/items/1号逃生舱.png"
+        },
+        {
+            "id": "DB-TheVessel",
+            "x": -555,
+            "y": 1100,
+            "width": 160,
+            "height": 160,
+            "type": "red",
+            "label": "飞船",
+            "content": "我在黑棘星的内部深处找到了被挪麦人废弃的飞船。\n飞船的跃迁核心早已失灵。\n我启动了飞船舰桥上的一根三面柱。它看上去像是某种输入装置。\n挪麦人曾经试着发出求救呼叫，但是飞船的通讯发送系统在坠落时摔坏了。\n飞船仍然能够收到从其它挪麦飞船那里传来的消息。其它挪麦家族正在重新集结，应对宇宙即将面临的死亡。\n我找到了一份记录，上面是挪麦人从宇宙之眼那里收到的原始信号。挪麦人担心信号会消失，因此他们还没有来得及告诉其它家族自己要去哪里，就跃迁走了。",
+            "img": "./assets/img/items/飞船.png"
+        },
+        {
+            "id": "DB-EscapePod3",
+            "x": -865,
+            "y": 945,
+            "width": 100,
+            "height": 100,
+            "type": "red",
+            "label": "3号逃生舱",
+            "content": "三个挪麦逃生舱里，有一个坠毁在了我们的太阳系。\n所有三个逃生舱都是从一艘损坏严重，名叫飞船的地方发射出来的。\n3号逃生舱的幸存者检测到了从飞船发出的两个不同信标，好像飞船同时出现在了两个地方一样。",
+            "img": "./assets/img/items/逃生舱.png"
+        },
+        {
+            "id": "DB-NomaiGrave",
+            "x": -950,
+            "y": 1160,
+            "width": 100,
+            "height": 100,
+            "type": "red",
+            "label": "挪麦坟墓",
+            "content": "3号逃生舱的幸存者跟着两个飞船信标中的其中一个找到了一颗小型黑棘星种子。他们无法从那里继续前进。\n挪麦人只能勉强听到从种子内部传来的飞船信标信号。然而种子的开口太小，只能让一个挪麦人钻进去，更别提逃生舱了。\n飞船的信标正在衰退，随时可能完全消失。\n如果我把侦查兵发射到种子里面去，我就可以拍下那艘被挪麦人废弃的巨大飞船的照片。",
+            "img": "./assets/img/items/挪麦坟墓.png"
         }
     ],
     "edges": [
@@ -360,6 +503,74 @@
         {
             "from": "ET-QuantumCaves",
             "to": "ET-LakebedCave"
+        },
+        {
+            "from": "BH-TheHangingCity",
+            "to": "BH-BlackHoleForge"
+        },
+        {
+            "from": "ET-TheSunlessCity",
+            "to": "S-SunStation"
+        },
+        {
+            "from": "ET-TheSunlessCity",
+            "to": "ET-AnglerfishFossil"
+        },
+        {
+            "from": "BH-TheHangingCity",
+            "to": "ET-AnglerfishFossil"
+        },
+        {
+            "from": "ET-ChertsCamp",
+            "to": "ET-TheSunlessCity"
+        },
+        {
+            "from": "ET-EscapePod2",
+            "to": "ET-AnglerfishFossil"
+        },
+        {
+            "from": "ET-EscapePod2",
+            "to": "ET-TheSunlessCity"
+        },
+        {
+            "from": "ET-EscapePod2",
+            "to": "ET-ChertsCamp"
+        },
+        {
+            "from": "BH-OldSettlement",
+            "to": "BH-TheHangingCity"
+        },
+        {
+            "from": "BH-Mural(Panel3)",
+            "to": "ET-EscapePod2"
+        },
+        {
+            "from": "BH-Mural(Panel3)",
+            "to": "BH-EscapePod1"
+        },
+        {
+            "from": "BH-EscapePod1",
+            "to": "BH-OldSettlement"
+        },
+        {
+            "from": "BH-Mural(Panel3)",
+            "to": "DB-TheVessel"
+        },
+        {
+            "from": "BH-TheHangingCity",
+            "to": "DB-TheVessel"
+        },
+        {
+            "from": "BH-Mural(Panel3)",
+            "to": "DB-EscapePod3"
+        },
+        {
+            "from": "DB-EscapePod3",
+            "to": "DB-NomaiGrave"
+        },
+        {
+            "from": "DB-NomaiGrave",
+            "to": "DB-TheVessel"
         }
     ]
 }

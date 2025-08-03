@@ -64,7 +64,7 @@
  *      3号逃生舱：DB-EscapePod3
  *      冻住的水母/空心藤蔓：DB-FrozenJellyfish
  *      挪麦坟墓/3号逃生舱的幸存者：DB-NomaiGrave
- *      飞船：TheVessel
+ *      飞船：DB-TheVessel
  * 闯入者（CM-）：
  *      冻住的挪麦航天飞机：CM-FrozenNomaiShuttle
  *      破裂的核心/地下能量读数：CM-RupturedCore
