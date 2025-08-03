@@ -18,6 +18,16 @@ const contentGroup = new Konva.Group({
     scaleY: 1,
 })
 
+const contentBackground = new Konva.Rect({
+    x: -stage.width() * 10,
+    y: -stage.height() * 10,
+    // 确保覆盖所有可能的空白区域
+    width: stage.width() * 20,
+    height: stage.height() * 20,
+    fill: 'transparent'
+})
+contentGroup.add(contentBackground) // 先加背景，确保在最底层
+
 // 节点组 和 连线组（边组）
 const edgesGroup = new Konva.Group()
 const nodesGroup = new Konva.Group()
@@ -174,14 +184,15 @@ function drawNodes() {
         // 鼠标悬浮/离开：
         group.on('mouseover', () => {
             const lighter = lightenColor(nodeTypes[node.type].color, 0.3)
-
             titleRect.fill(lighter)
             contentRect.fill(lighter)
+            stage.container().style.cursor = 'pointer'
             layer.batchDraw()
         })
         group.on('mouseout', () => {
             titleRect.fill(nodeTypes[node.type].color)
             contentRect.fill(nodeTypes[node.type].color)
+            stage.container().style.cursor = 'auto'
             layer.batchDraw()
         })
 
@@ -230,10 +241,12 @@ function drawEdges() {
 
         line.on('mouseover', () => {
             line.stroke('#ffffff')
+            stage.container().style.cursor = 'pointer'
             layer.batchDraw()
         })
         line.on('mouseout', () => {
             line.stroke('#7f807a')
+            stage.container().style.cursor = 'auto'
             layer.batchDraw()
         })
         edgesGroup.add(line);
@@ -280,6 +293,8 @@ stage.on('wheel', (e) => {
     layer.batchDraw();
 });
 
+stage.on('mousedown', () => { stage.container().style.cursor = 'grabbing' })
+stage.on('mouseup', () => { stage.container().style.cursor = 'auto' })
 
 // 8. 详情弹窗（用absolutePosition()接口获取绝对位置）
 const popup = document.getElementById('detailPopup');
