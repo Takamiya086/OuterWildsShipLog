@@ -26,11 +26,12 @@ contentGroup.add(nodesGroup)
 
 // 2. 数据定义（按照颜色分区）
 const nodeTypes = {
-    purple: { color: '#7b4e8eff', label: '量子卫星探索' },
-    orange: { color: '#d29532ff', label: '灰烬双星计划' },
-    green: { color: '#359a5fff', label: '寻找宇宙之眼' },
-    red: { color: '#e74c3c', label: '挪麦生活' },
-    gray: { color: '#95a5a6', label: '过渡记录' },
+    purple: { color: '#4f3a8d', label: '量子卫星探索' },
+    orange: { color: '#ffa768', label: '灰烬双星计划' },
+    green: { color: '#388a5d', label: '寻找宇宙之眼' },
+    red: { color: '#b44a4a', label: '挪麦生活' },
+    gray: { color: '#7f807a', label: '过渡记录' },
+    blue: { color: '#1d4a94', label: '鹿人文明' }
 };
 
 const nodes = graphData.nodes.map(node => ({
@@ -82,6 +83,29 @@ async function preloadNodeImages() {
     }
 }
 
+// 颜色变浅工具函数
+function lightenColor(hex, amount) {
+    // 1. 处理输入格式：去掉#，3位转6位（如#FFF → #FFFFFF）
+    hex = hex.replace(/^#/, ''); // 移除#
+    if (hex.length === 3) { // 处理3位简写（如#FFF）
+        hex = hex.split('').map(char => char.repeat(2)).join('');
+    }
+
+    // 2. 16进制转十进制（R/G/B）
+    const r = parseInt(hex.slice(0, 2), 16);
+    const g = parseInt(hex.slice(2, 4), 16);
+    const b = parseInt(hex.slice(4, 6), 16);
+
+    // 3. 线性插值混合白色（核心逻辑）
+    const newR = Math.round(r * (1 - amount) + 255 * amount);
+    const newG = Math.round(g * (1 - amount) + 255 * amount);
+    const newB = Math.round(b * (1 - amount) + 255 * amount);
+
+    // 4. 十进制转回16进制（不足两位补0）
+    const toHex = num => num.toString(16).padStart(2, '0').toUpperCase();
+    return `#${toHex(newR)}${toHex(newG)}${toHex(newB)}`;
+}
+
 function drawNodes() {
     nodes.forEach(node => {
         // 节点容器组（位置由 node.x/node.y 决定）
@@ -101,17 +125,17 @@ function drawNodes() {
             strokeWidth: 1,
             shadowColor: nodeTypes[node.type].color, // 阴影颜色
             shadowBlur: 1,      // 阴影模糊度
-            shadowOpacity: 0.6,  // 阴影透明度
+            shadowOpacity: 0.6  // 阴影透明度
         })
 
         const titleText = new Konva.Text({
             text: node.label,    // 标题文字（如“灰烬双星计划”）
             fontSize: 22 * (node.width / 160),
-            fill: '#353535ff',        // 文字白色
+            fill: '#1b1b1bff',
             align: 'center',     // 水平居中
             verticalAlign: 'middle', // 垂直居中
-            width: node.width,
-            height: titleHeight,
+            width: node.width * 0.95,
+            height: titleHeight * 0.95,
             fontStyle: 'bold',   // 加粗
             fontFamily: '微软雅黑, sans-serif', // 中文适配字体
         })
@@ -145,14 +169,19 @@ function drawNodes() {
             image: img,
         })
 
-        // ---------------------- 4. 交互效果（可选） ----------------------
-        // 鼠标悬浮：阴影放大
+        // ---------------------- 4. 交互效果 ----------------------
+
+        // 鼠标悬浮/离开：
         group.on('mouseover', () => {
-            titleRect.shadowBlur(18)
+            const lighter = lightenColor(nodeTypes[node.type].color, 0.3)
+
+            titleRect.fill(lighter)
+            contentRect.fill(lighter)
             layer.batchDraw()
         })
         group.on('mouseout', () => {
-            titleRect.shadowBlur(12)
+            titleRect.fill(nodeTypes[node.type].color)
+            contentRect.fill(nodeTypes[node.type].color)
             layer.batchDraw()
         })
 
@@ -191,14 +220,22 @@ function drawEdges() {
             y: toNode.y() + toRect.height / 2,
         };
 
-        // 绘制边（不变）
+        // 绘制边
         const line = new Konva.Line({
             points: [fromCenter.x, fromCenter.y, toCenter.x, toCenter.y],
-            stroke: '#bfbfbf',
+            stroke: '#7f807a',
             strokeWidth: 5,
             lineCap: 'round',
-            opacity: 0.7,
         });
+
+        line.on('mouseover', () => {
+            line.stroke('#ffffff')
+            layer.batchDraw()
+        })
+        line.on('mouseout', () => {
+            line.stroke('#7f807a')
+            layer.batchDraw()
+        })
         edgesGroup.add(line);
     });
 }

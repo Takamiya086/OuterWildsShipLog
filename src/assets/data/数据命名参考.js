@@ -71,6 +71,7 @@
  * 白洞（WH-）：
  *      白洞站：WH-WhiteHoleStation
  * 量子卫星（QM-）：
+ *      量子卫星：QM-QuantumMoon
  *      所莱内姆的航天飞机：QM-SolanumsShuttle
  *      量子祭坛：QM-QuantumShrine
  *      第六个位置：QM-SixthLocation

@@ -76,6 +76,204 @@
             "label": "火山测试点",
             "content": "从木炉星的挪麦矿井里提取的矿石样本会送到这座火山来进行耐久度测试。\n挪麦人计划打造一个（短暂）隔绝超新星的保护壳，以此来保护灰烬双星计划。\n保护外壳上哪怕出现最微小的裂缝，也会让一切都前功尽弃。",
             "img": "./assets/img/items/火山测试点.png"
+        },
+        {
+            "id": "ET-AshTwinTowerDesigns",
+            "x": -60,
+            "y": -260,
+            "width": 60,
+            "height": 60,
+            "type": "orange",
+            "label": "灰烬双星高塔设计图",
+            "content": "灰烬双星赤道上各高塔的设计图。\n每座高塔都跃迁往不同的行星（虽然很多挪麦人都会很快指出太阳并不是行星）。\n每座高塔的外观都设计成了对应跃迁目的地的风格。\n使用这几座高塔，挪麦人就可以在灰烬双星和其它灰烬双星计划的关键位置之间进行快速移动。",
+            "img": "./assets/img/items/灰烬双星高塔设计图.png"
+        },
+        {
+            "id": "WH-WhiteHoleStation",
+            "x": -430,
+            "y": -360,
+            "width": 100,
+            "height": 100,
+            "type": "orange",
+            "label": "白洞站",
+            "content": "每座挪麦跃迁塔都与某一特定天体匹配。\n要使用跃迁塔，你必须站在跃迁平台上，等待跃迁塔与其对应的天体匹配（对应天体经过头顶正上方时，匹配就会完成）。\n挪麦人注意到了一些奇怪的事情：跃迁对象抵达碎空星跃迁接收点的时间比离开白洞站的时间要稍微早那么一点点。\n对象抵达和离开的时间倒流间隔异常微小（大约只有十万分之一秒）。挪麦人怀疑他们的仪器是否无法精确测量尺度如此微观的时间量。",
+            "img": "./assets/img/items/白洞站.png"
+        },
+        {
+            "id": "AT-AshTwinTowers",
+            "x": -285,
+            "y": -90,
+            "width": 100,
+            "height": 100,
+            "type": "orange",
+            "label": "灰烬双星高塔",
+            "content": "几座巨大的挪麦高塔围绕灰烬双星的赤道组成了一个圆环。\n为灰烬双星计划而建造的白洞站就是这些高塔的原型。",
+            "img": "./assets/img/items/灰烬双星高塔.png"
+        },
+        {
+            "id": "S-SunStation",
+            "x": -600,
+            "y": -90,
+            "width": 100,
+            "height": 100,
+            "type": "orange",
+            "label": "太阳站",
+            "content": "太阳站是用来把恒星爆发成超新星的。\n挪麦人在太阳站进行了发射，然而它对恒星不起作用。他们断定，太阳站永远无法把恒星引爆成超新星。\n太阳站失败后，挪麦人稍事休息，对刚抵达的彗星展开了调查。\n根据挪麦电脑的计算结果，我们的太阳已经来到了其自然生命周期的最后阶段。",
+            "img": "./assets/img/items/太阳站.png"
+        },
+        {
+            "id": "BH-AlignmentAngleDiagram",
+            "x": -55,
+            "y": 270,
+            "width": 60,
+            "height": 60,
+            "type": "orange",
+            "label": "对齐角度简图",
+            "content": "一张描绘跃迁塔和它对应天体间的对齐角度的简图。\n跃迁塔对齐角度不必精确，只需要对准天体中心周围五度的范围内即可。\n这样就有了稍微长一些的跃迁时间，大概会有几秒钟。\n在有效时间内踏上跃迁平台的任何人都会立即跃迁。",
+            "img": "./assets/img/items/对齐角度简图.png"
+        },
+        {
+            "id": "BH-NorthernGlacier",
+            "x": -425,
+            "y": -700,
+            "width": 100,
+            "height": 100,
+            "type": "gray",
+            "label": "北部冰川",
+            "content": "碎空星的北极覆盖着冰雪。地面上还有一座形状奇特的挪麦废墟。\n挪麦人从白洞站跃迁到了这里。这是他们首次再现跃迁技术。",
+            "img": "./assets/img/items/北部冰川.png"
+        },
+        {
+            "id": "QM-QuantumMoon",
+            "x": -805,
+            "y": -1000,
+            "width": 160,
+            "height": 160,
+            "type": "purple",
+            "label": "量子卫星",
+            "content": "我登上了那颗量子卫星的表面。\n我在南极附近发现了一个穿着宇航服的挪麦人。那个挪麦人已经死了。",
+            "img": "./assets/img/items/量子卫星.png"
+        },
+        {
+            "id": "QM-SolanumsShuttle",
+            "x": -660,
+            "y": -930,
+            "width": 60,
+            "height": 60,
+            "type": "purple",
+            "label": "所莱内姆的航天飞机",
+            "content": "一个叫做所莱内姆的挪麦人开着航天飞机降落在了量子卫星的南极，准备步行完成接下来的旅程。\n前往量子卫星的人总是会来到南极（挪麦人也不知道这是为什么）。",
+            "img": "./assets/img/items/所莱内姆的航天飞机(2).png"
+        },
+        {
+            "id": "QM-QuantumShrine",
+            "x": -855,
+            "y": -950,
+            "width": 70,
+            "height": 70,
+            "type": "purple",
+            "label": "量子祭坛",
+            "content": "一座在量子卫星上流浪的挪麦祭坛。\n某个岛屿上画着一座高塔的壁画，旁边的文字写着“你已经回想起了量子成像法则”。\n某个洞穴里画着一块量子碎片的壁画，旁边的文字写着“回想量子纠缠法则”。\n某个黑洞上方悬挂着一座高塔的壁画，旁边的文字写着“回想第六个位置法则”。",
+            "img": "./assets/img/items/量子祭坛.png"
+        },
+        {
+            "id": "QM-SixthLocation",
+            "x": -855,
+            "y": -850,
+            "width": 70,
+            "height": 70,
+            "type": "purple",
+            "label": "第六个位置",
+            "content": "我在南极遇到了一个叫做所莱内姆的活生生的挪麦人！\n量子卫星是宇宙之眼的卫星。\n在这个位置，量子卫星变成了宇宙之眼的倒影。\n宇宙之眼很有可能就是这个太阳系所有宏观量子现象的成因。\n所莱内姆想知道，如果一个有意识的观察者进入宇宙之眼，那又会发生什么事情。\n所莱内姆的假设是，她也许只能算是部分活着。",
+            "img": "./assets/img/items/第六个位置.png"
+        },
+        {
+            "id": "ET-QuantumMoonLocator",
+            "x": -820,
+            "y": -650,
+            "width": 100,
+            "height": 100,
+            "type": "purple",
+            "label": "量子卫星定位器",
+            "content": "一台用来追踪量子卫星位置的挪麦设备。\n根据挪麦人的假设，量子卫星可能是宏观量子力学的一种形式。\n量子卫星一共会出现在五个位置。",
+            "img": "./assets/img/items/量子卫星定位器.png"
+        },
+        {
+            "id": "BH-TowerOfQuantumKnowledge",
+            "x": -1100,
+            "y": -955,
+            "width": 100,
+            "height": 100,
+            "type": "purple",
+            "label": "量子知识之塔",
+            "content": "挪麦人在量子卫星上建造了一座祭坛，帮助人们朝圣的时候前往第六个位置。“把最后的这条法则铭记在心：要想探索第六个位置，祭坛必须位于卫星的北极。”\n前往量子卫星的朝圣之旅对于挪麦人而言意义非同凡响。\n被困在余烬双星和碎空星的两批挪麦人汇合之后，寻找并拜访量子卫星就成了他们共同的目标。",
+            "img": "./assets/img/items/量子知识之塔.png"
+        },
+        {
+            "id": "BH-GravityCannon",
+            "x": -975,
+            "y": -1200,
+            "width": 100,
+            "height": 100,
+            "type": "purple",
+            "label": "重力炮",
+            "content": "一座巨大的圆柱形建筑，可以制造强有力的向上重力场。\n我从量子卫星那里召回了一艘挪麦人的航天飞机。",
+            "img": "./assets/img/items/重力炮(2).png"
+        },
+        {
+            "id": "BH-QuantumShard",
+            "x": -1140,
+            "y": -860,
+            "width": 60,
+            "height": 60,
+            "type": "purple",
+            "label": "量子碎片",
+            "content": "一块奇怪的岩石碎片，没有人看着它的时候就会到处乱跑。挪麦人做出推断，这片树林的物体之所以会表现出量子特征，就是因为这种碎片。\n根据挪麦人的假设，这块碎片其实是量子卫星的一部分。\n这块碎片也发射出了和量子卫星一样的信号。",
+            "img": "./assets/img/items/量子碎片.png"
+        },
+        {
+            "id": "ET-QuantumCaves",
+            "x": -1030,
+            "y": -690,
+            "width": 100,
+            "height": 100,
+            "type": "purple",
+            "label": "量子洞穴",
+            "content": "挪麦人注意到了一块奇怪的流浪岩石，它会出现在余烬双星北半球的多个洞穴里。\n我发现了一块奇怪的岩石碎片，当我不看它的时候，它就会移动。它发射出一种具备量子波动频率的信号。",
+            "img": "./assets/img/items/量子洞穴.png"
+        },
+        {
+            "id": "TH-QuantumGrove",
+            "x": -1340,
+            "y": -725,
+            "width": 100,
+            "height": 100,
+            "type": "purple",
+            "label": "量子树林",
+            "content": "这片树林里有一块奇怪的岩石碎片。当我不看它的时候，它就会移动。它发射出一种具备量子波动频率的信号。\n我发现有人在树林的一棵树上写了一首诗。",
+            "img": "./assets/img/items/量子树林.png"
+        },
+        {
+            "id": "GD-TowerOfQuantumTrials",
+            "x": -1335,
+            "y": -1000,
+            "width": 100,
+            "height": 100,
+            "type": "purple",
+            "label": "量子试验之塔",
+            "content": "这座高塔保存着挪麦人踏上第一次量子之旅所需要了解的知识。\n“观察一个量子对象；观察一个量子对象的图形。它们是一样的事情。”\n挪麦人称其为“量子成像法则。”\n“记住，其它的内容可以从别的量子碎片那里学习。”",
+            "img": "./assets/img/items/量子试验之塔.png"
+        },
+        {
+            "id": "ET-LakebedCave",
+            "x": -1130,
+            "y": -430,
+            "width": 100,
+            "height": 100,
+            "type": "purple",
+            "label": "湖床洞穴",
+            "content": "另一个挪麦人的灯熄灭的时候，一个叫做科利耶斯的挪麦人正站在流浪岩石上。当他再次把灯点亮的时候，科利耶斯和那块岩石就都不见了。\n我必须站在量子对象上，停止观察我的周围（也就是说我必须完全处于黑暗之中），才能和该对象一起移动。科利耶斯利用这条量子法则从被困的洞穴里逃了出来。\n科利耶斯和梅洛瑞回来再次查看那块岩石。他们提出一个理论，假如一个有意识的存在接触到一个量子对象，并且停止观察自己的周围，那么该存在就能和量子对象进入纠缠态，从而一起移动。",
+            "img": "./assets/img/items/湖床洞穴.png"
         }
     ],
     "edges": [
@@ -98,6 +296,70 @@
         {
             "from": "HL-VolcanicTestingSite",
             "to": "TH-NomaiMines"
+        },
+        {
+            "from": "BH-BlackHoleForge",
+            "to": "ET-AshTwinTowerDesigns"
+        },
+        {
+            "from": "WH-WhiteHoleStation",
+            "to": "ET-HighEnergyLab"
+        },
+        {
+            "from": "AT-AshTwinTowers",
+            "to": "BH-BlackHoleForge"
+        },
+        {
+            "from": "AT-AshTwinTowers",
+            "to": "WH-WhiteHoleStation"
+        },
+        {
+            "from": "AT-AshTwinTowers",
+            "to": "S-SunStation"
+        },
+        {
+            "from": "BH-NorthernGlacier",
+            "to": "WH-WhiteHoleStation"
+        },
+        {
+            "from": "BH-NorthernGlacier",
+            "to": "QM-QuantumMoon"
+        },
+        {
+            "from": "ET-QuantumMoonLocator",
+            "to": "QM-SixthLocation"
+        },
+        {
+            "from": "ET-QuantumMoonLocator",
+            "to": "QM-QuantumMoon"
+        },
+        {
+            "from": "BH-TowerOfQuantumKnowledge",
+            "to": "QM-QuantumShrine"
+        },
+        {
+            "from": "BH-TowerOfQuantumKnowledge",
+            "to": "QM-SixthLocation"
+        },
+        {
+            "from": "BH-GravityCannon",
+            "to": "BH-TowerOfQuantumKnowledge"
+        },
+        {
+            "from": "BH-QuantumShard",
+            "to": "ET-QuantumCaves"
+        },
+        {
+            "from": "BH-QuantumShard",
+            "to": "TH-QuantumGrove"
+        },
+        {
+            "from": "BH-QuantumShard",
+            "to": "GD-TowerOfQuantumTrials"
+        },
+        {
+            "from": "ET-QuantumCaves",
+            "to": "ET-LakebedCave"
         }
     ]
 }
