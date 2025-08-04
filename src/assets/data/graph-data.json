@@ -659,6 +659,116 @@
             "label": "冻住的水母",
             "content": "费尔德斯巴曾经多次尝试吃掉这条冰封起来的巨大水母，并把这些内容记录了下来。外皮就像橡胶，根本咬不动。可能是为了起到绝缘的作用，保护水母内部，以免触电。\n费尔德斯巴决定深入水母的内腔，看看里面的味道会不会好吃一些。\n品尝过水母的内部之后，费尔德斯巴得出了结论，这些水母只有在隔绝电流时才有用。",
             "img": "./assets/img/items/冻住的水母.png"
+        },
+        {
+            "id": "TheStranger",
+            "x": 1550,
+            "y": 550,
+            "width": 160,
+            "height": 160,
+            "type": "blue",
+            "label": "外星站",
+            "content": "隐藏在某种隐蔽力场中的巨大人造环形世界。看上去并不是由哈斯人或挪麦人所造。",
+            "img": "./assets/img/items/外星站.png"
+        },
+        {
+            "id": "TH-RadioTower",
+            "x": 1385,
+            "y": 470,
+            "width": 100,
+            "height": 100,
+            "type": "blue",
+            "label": "无线电塔",
+            "content": "这座无线电塔的作用是接收深空卫星拍摄的照片。几面墙上挂着数张太阳系全貌的照片。霍恩费斯发现其中一张照片有些不对劲，然而最终得出的唯一合理解释是设备故障。",
+            "img": "./assets/img/items/无线电塔.png"
+        },
+        {
+            "id": "IP-Reservoir",
+            "x": 1950,
+            "y": 615,
+            "width": 100,
+            "height": 100,
+            "type": "blue",
+            "label": "水库",
+            "content": "这是一座巨大的水库，岸边修建着木质码头和建筑物。\n我找到了一个房间，其中有一部烧毁的控制界面，还有一张投影片，上面显示了外星站和另一艘太空船之间已然毁坏的连接。\n我找到了一张投影片，上面显示着外星站当前的轨道以及太阳的超新星预计范围。",
+            "img": "./assets/img/items/水库.png"
+        },
+        {
+            "id": "IP-SubmergedStructure",
+            "x": 1950,
+            "y": 880,
+            "width": 100,
+            "height": 100,
+            "type": "blue",
+            "label": "沉没的构筑物",
+            "content": "一个由铁链悬挂起来的巨大金属构筑物。可以通过游泳从下方进入。\n构筑物内部有一个由绿色火焰照亮的密封储藏库。",
+            "img": "./assets/img/items/沉没的构筑物.png"
+        },
+        {
+            "id": "IP-BurnedSlideReel4",
+            "x": 2015,
+            "y": 725,
+            "width": 60,
+            "height": 60,
+            "type": "blue",
+            "label": "烧毁的幻灯片卷盘",
+            "content": "这卷幻灯片中显示了一座奇异的储藏库，它被包裹在巨大的金属构筑物中，然后沉入了水底。\n几乎所有的幻灯片都已经被烧毁，无法查看。",
+            "img": "./assets/img/items/烧毁的幻灯片卷盘4.png"
+        },
+        {
+            "id": "IP-SubterraneanLake",
+            "x": 2040,
+            "y": 910,
+            "width": 60,
+            "height": 60,
+            "type": "blue",
+            "label": "地下湖",
+            "content": "我在一座沉没的构筑物下方发现了一个巨大的地下湖。密封储藏库就放置在湖岸上，这里还有三部控制界面，每一个上都标记着储藏库上的三个符号之一。\n我转动了储藏库前的机械装置，使它与锁着它的链条相抵。过了一会儿，绿色的光线从储藏库中溢出。",
+            "img": "./assets/img/items/地下湖.png"
+        },
+        {
+            "id": "IP-SealedVault",
+            "x": 1970,
+            "y": 1000,
+            "width": 60,
+            "height": 60,
+            "type": "blue",
+            "label": "密封储藏库",
+            "content": "我遇到了一名被囚禁在储藏库中的外星站居民！\n幽禁者向我显示了一个幻象，揭露了他们导致自己遭到永久囚禁的所作所为。\n我使用火把视野将我对太阳系历史的知识分享给了幽禁者。\n幽静者在水边给我留下了最后一段幻象作为告别。",
+            "img": "./assets/img/items/密封储藏库.png"
+        },
+        {
+            "id": "IP-RiverLowlands",
+            "x": 2325,
+            "y": 973,
+            "width": 100,
+            "height": 100,
+            "type": "blue",
+            "label": "河流洼地",
+            "content": "外星站入口附近的一片低地区域。这条河流两侧的河岸上修建有一些木制建筑。\n我在一个被幽灵物质所包围的车间内找到了一些华丽的铁质文物。",
+            "img": "./assets/img/items/河流洼地.png"
+        },
+        {
+            "id": "IP-HiddenGorge",
+            "x": 1615,
+            "y": 973,
+            "width": 100,
+            "height": 100,
+            "type": "blue",
+            "label": "隐藏峡谷",
+            "content": "最右侧的河支流两旁是高耸的狭窄峡谷。两侧的悬崖峭壁高处修建有许多居所。",
+            "img": "./assets/img/items/隐藏峡谷.png"
+        },
+        {
+            "id": "IP-CinderIsles",
+            "x": 1950,
+            "y": 1350,
+            "width": 100,
+            "height": 100,
+            "type": "blue",
+            "label": "余烬群岛",
+            "content": "两座岩石岛，由高脚屋组成的小村庄将之连接起来。\n我在一座烧毁的建筑物中找到了一枚巨大的宇宙之眼符号。",
+            "img": "./assets/img/items/余烬群岛.png"
         }
     ],
     "edges": [
@@ -905,6 +1015,26 @@
         {
             "from": "DB-FeldsparsCamp",
             "to": "DB-FrozenJellyfish"
+        },
+        {
+            "from": "IP-Reservoir",
+            "to": "IP-SubmergedStructure"
+        },
+        {
+            "from": "IP-BurnedSlideReel4",
+            "to": "IP-SubmergedStructure"
+        },
+        {
+            "from": "IP-RiverLowlands",
+            "to": "IP-SealedVault"
+        },
+        {
+            "from": "IP-HiddenGorge",
+            "to": "IP-SealedVault"
+        },
+        {
+            "from": "IP-CinderIsles",
+            "to": "IP-SealedVault"
         }
     ]
 }

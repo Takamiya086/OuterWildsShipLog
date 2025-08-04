@@ -75,4 +75,33 @@
  *      所莱内姆的航天飞机：QM-SolanumsShuttle
  *      量子祭坛：QM-QuantumShrine
  *      第六个位置：QM-SixthLocation
+ * 外星站（IP-）：
+ *      外星站：TheStranger
+ *      河流洼地：IP-RiverLowlands
+ *          幻灯片焚烧室：IP-SlideBurningRoom1
+ *          烧毁的幻灯片卷盘：IP-BurnedSlideReel1
+ *      余烬群岛：IP-CinderIsles
+ *          幻灯片焚烧室：IP-SlideBurningRoom2
+ *          烧毁的幻灯片卷盘：IP-BurnedSlideReel2
+ *      沉没的构筑物：IP-SubmergedStructure
+ *          地下湖：IP-SubterraneanLake
+ *          密封储藏库：IP-SealedVault
+ *      遗弃神庙：IP-AbandonedTemple
+ *          地图投影片1：IP-MapProjection1
+ *          地图投影片2：IP-MapProjection2
+ *          地图投影片3：IP-MapProjection3
+ *      水库：IP-Reservoir
+ *          烧毁的幻灯片卷盘：IP-BurnedSlideReel4
+ *      岛屿高塔：IP-IslandTower
+ *          符号室：IP-SymbolRoom
+ *      隐藏峡谷：IP-HiddenGorge
+ *          损毁的实验室：IP-DamagedLabortory
+ *          幻灯片焚烧室：IP-SlideBurningRoom3
+ *          烧毁的幻灯片卷盘：IP-BurnedSlideReel3
+ *      无尽峡谷：IP-EndlessCanyon
+ *          禁忌档案室：IP-ForbiddenArchive3
+ *      覆盖林地：IP-ShroudedWoodlands
+ *          禁忌档案室：IP-ForbiddenArchive1
+ *      星光海湾：IP-StarlitCove
+ *          禁忌档案室：IP-ForbiddenArchive2
  */
