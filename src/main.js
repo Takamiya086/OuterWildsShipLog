@@ -253,10 +253,34 @@ function drawEdges() {
     });
 }
 
+// 新增logo
+let logo
+async function addLogo() {
+    try {
+        const logoSrc = new URL('./assets/img/game-name.png', import.meta.url).href;
+        const logoImg = await loadImage(logoSrc);
+        logo = new Konva.Image({
+            image: logoImg,
+            // x: (stage.width() - logoImg.width * 0.3) / 2,  // 居中
+            x: stage.width() - logoImg.width * 0.3 - 20,      // 靠右
+            y: stage.height() - logoImg.height * 0.3 - 20,
+            scaleX: 0.3,
+            scaleY: 0.3,
+        });
+        layer.add(logo);
+        contentGroup.moveToTop()
+        layer.batchDraw();
+    } catch (error) {
+        console.error('Logo加载失败:', error);
+    }
+}
+
 // 统一绘制
-drawGrid();
-layer.add(contentGroup);
+drawGrid()
+addLogo()
 preloadNodeImages()
+layer.add(contentGroup)
+
 
 // 6. 平移交互
 contentGroup.draggable(true)
