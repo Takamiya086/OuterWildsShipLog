@@ -450,6 +450,215 @@
             "label": "重力炮",
             "content": "一座巨大的圆柱形建筑，可以制造强有力的向上重力场。\n我从闯入者那里召回了一艘挪麦人的航天飞机。",
             "img": "./assets/img/items/重力炮.png"
+        },
+        {
+            "id": "GD-GabbrosIsland",
+            "x": 700,
+            "y": -315,
+            "width": 100,
+            "height": 100,
+            "type": "gray",
+            "label": "加布罗的岛屿",
+            "content": "加布罗闲躺在岛屿岸边的吊床里。\n加布罗在另一个岛上发现了一座挪麦雕像。雕像的眼睛开始发光，加布罗看见自己的回忆在眼前闪过。\n加布罗记得自己死了。他看见自己的回忆在眼前闪过。就好像遇到雕像那次一样。\n看来只有加布罗和我意识到自己处在时间循环里。",
+            "img": "./assets/img/items/加布罗的岛屿.png"
+        },
+        {
+            "id": "OrbitalProbeCannon",
+            "x": 1100,
+            "y": -395,
+            "width": 160,
+            "height": 160,
+            "type": "green",
+            "label": "轨道探测炮",
+            "content": "围绕深巨星轨道运行的破碎挪麦太空站残骸。中枢区域分出来三条通道。\n轨道探测炮是用来寻找宇宙之眼的确切位置的。\n挪麦人让动力超过轨道探测炮所能承受的极限，从而最大限度地增加发现宇宙之眼的机会。",
+            "img": "./assets/img/items/轨道探测炮.png"
+        },
+        {
+            "id": "OPC-ControlModule",
+            "x": 1045,
+            "y": -220,
+            "width": 80,
+            "height": 80,
+            "type": "green",
+            "label": "控制模块",
+            "content": "控制模块（最近）收到了一份来自灰烬双星计划的探测器发射请求。大炮对准了随机选择的探测器轨道。\n探测器成功地发射了出去，但是大炮的结构完整性在发射过程中遭到了破坏。多个模块都检测到了损伤。",
+            "img": "./assets/img/items/控制模块.png"
+        },
+        {
+            "id": "OPC-LaunchModule",
+            "x": 1140,
+            "y": -220,
+            "width": 80,
+            "height": 80,
+            "type": "green",
+            "label": "发射模块",
+            "content": "发射模块损伤严重，但是它的投影池依然完好。\n一个叫做玛罗的挪麦人辩称，大炮的结构完整性是否会遭到破坏无关紧要。因为他只要发射一次探测器就可以了。\n一个叫做普利维特的挪麦人反驳说，如果探测器跟踪模块损毁，那么他将无法接收到探测器的数据。",
+            "img": "./assets/img/items/发射模块.png"
+        },
+        {
+            "id": "OPC-ProbeTracModuledule",
+            "x": 1235,
+            "y": -220,
+            "width": 80,
+            "height": 80,
+            "type": "green",
+            "label": "探测器跟踪模块",
+            "content": "轨道探测炮发射了上百万枚探测器。\n探测器9,318,054发现了与宇宙之眼所有已知指标相符的深空异常现象。\n探测器跟踪模块中的雕像会自动记录下每个探测器的轨道，并将数据传输给灰烬双星计划。\n我发现了标出宇宙之眼所在位置的挪麦坐标。",
+            "img": "./assets/img/items/探测器跟踪模块-坐标.png"
+        },
+        {
+            "id": "TH-Village",
+            "x": 790,
+            "y": -600,
+            "width": 100,
+            "height": 100,
+            "type": "gray",
+            "label": "村子",
+            "content": "哈斯人唯一的村子就坐落在这颗行星上。它也是爆炸的主要来源。\n天文台里的那座挪麦雕像睁开了眼睛，还盯着我看！我看见了奇怪的光芒，我的回忆在眼前闪过。\n哈尔说雕像以前从来没有睁开过眼睛（虽然霍恩费斯什么办法都用过了）。",
+            "img": "./assets/img/items/村子.png"
+        },
+        {
+            "id": "TH-Zero-GCave",
+            "x": 870,
+            "y": -500,
+            "width": 60,
+            "height": 60,
+            "type": "gray",
+            "label": "零重力洞窟",
+            "content": "那是一个位于木炉星正中央的洞窟，Outer Wilds探险队用它来训练新的宇航员。\n我成功地为古萨修好了另一颗“卫星”。",
+            "img": "./assets/img/items/零重力洞窟.png"
+        },
+        {
+            "id": "GD-OceanDepths",
+            "x": 1150,
+            "y": 10,
+            "width": 100,
+            "height": 100,
+            "type": "green",
+            "label": "海洋深处",
+            "content": "水流下面的海洋出奇地宁静。某种电场环绕着行星的核心。\n我穿过电流屏障，来到了在行星核心的珊瑚森林。",
+            "img": "./assets/img/items/海洋深处.png"
+        },
+        {
+            "id": "GD-BrambleIsland",
+            "x": 1650,
+            "y": 0,
+            "width": 100,
+            "height": 100,
+            "type": "green",
+            "label": "荆棘岛",
+            "content": "一座长满了有刺藤蔓的岛屿，样子像是一只冻住的水母。看起来费尔德斯巴在前往黑棘星之前曾经在这里扎营。",
+            "img": "./assets/img/items/荆棘岛.png"
+        },
+        {
+            "id": "TA-EyeSignalLocator",
+            "x": 1135,
+            "y": -700,
+            "width": 100,
+            "height": 100,
+            "type": "green",
+            "label": "宇宙之眼信号定位器",
+            "content": "一套挪麦人用来定位远距离信号来源的设备。\n挪麦人没能检测到从他们称之为宇宙之眼的地方发出的信号。这让他们非常失望。",
+            "img": "./assets/img/items/宇宙之眼信号定位器.png"
+        },
+        {
+            "id": "TA-EskersCamp",
+            "x": 965,
+            "y": -890,
+            "width": 100,
+            "height": 100,
+            "type": "gray",
+            "label": "埃斯科的营地",
+            "content": "埃斯科在营地里种了一大批树。他看起来挺好的，不过他可能在月球上待得太久了。",
+            "img": "./assets/img/items/埃斯科的营地.png"
+        },
+        {
+            "id": "TA-LunarLookout",
+            "x": 1300,
+            "y": -990,
+            "width": 100,
+            "height": 100,
+            "type": "gray",
+            "label": "月面瞭望所",
+            "content": "一座能够看到这个太阳系壮观景色的瞭望平台。埃斯科会在这里用信号镜查看其他旅行者的情况。",
+            "img": "./assets/img/items/月面瞭望所.png"
+        },
+        {
+            "id": "BH-RiebecksCamp",
+            "x": 1365,
+            "y": -795,
+            "width": 100,
+            "height": 100,
+            "type": "gray",
+            "label": "瑞拜克的营地",
+            "content": "一座能够看到这个太阳系壮观景色的瞭望平台。埃斯科会在这里用信号镜查看其他旅行者的情况。",
+            "img": "./assets/img/items/瑞拜克的营地.png"
+        },
+        {
+            "id": "BH-SouthernObservatory",
+            "x": 1505,
+            "y": -525,
+            "width": 100,
+            "height": 100,
+            "type": "green",
+            "label": "南部天文台",
+            "content": "挪麦人在这个天文台里新造出来的定位器更加敏感，但是它无法检测到眼信号的任何踪迹。\n基于挪麦人对量子卫星的了解，他们相信眼位于环绕太阳的遥远轨道上。\n挪麦人决定不再搜寻眼信号，转而通过发射深空探测器来用肉眼去寻找它。\n有人担心，找到正确的探测器发射方向的可能性微乎其微。",
+            "img": "./assets/img/items/南部天文台.png"
+        },
+        {
+            "id": "GD-ConstructionYard",
+            "x": 1465,
+            "y": -275,
+            "width": 100,
+            "height": 100,
+            "type": "green",
+            "label": "建造厂",
+            "content": "这座岛就是挪麦人建造轨道探测炮的地方。\n出于某种原因，挪麦人将轨道探测炮无限期地搁置了起来。大炮并没有获得发射请求。\n根据一台挪麦电脑的说法，一枚远程探测器最近从轨道探测炮里发射了出去。",
+            "img": "./assets/img/items/建造厂.png"
+        },
+        {
+            "id": "BH-TornadoSimulation",
+            "x": 1585,
+            "y": -415,
+            "width": 60,
+            "height": 60,
+            "type": "green",
+            "label": "龙卷风模拟",
+            "content": "深巨星上的大多数气旋都是顺时针旋转的。挪麦人会用这种气旋把部件运送到轨道上去。\n还有一种较为罕见的气旋，会反方向旋转，把对象往水面和水流下方推。",
+            "img": "./assets/img/items/龙卷风模拟.png"
+        },
+        {
+            "id": "TH-DarkBrambleSeed",
+            "x": 1750,
+            "y": -835,
+            "width": 100,
+            "height": 100,
+            "type": "gray",
+            "label": "黑棘星种子",
+            "content": "一颗黑棘星的种子坠落在了这里，并且已经扎了根。泰克泰特想要用侦查发射器去看看里面是什么样子。\n我用信号镜对准种子的时候，听到那里传来了口琴声。\n我往种子里发射了一个小侦查兵。不知道为什么，种子的里面比外面要大。",
+            "img": "./assets/img/items/黑棘星种子.png"
+        },
+        {
+            "id": "DB-FeldsparsCamp",
+            "x": 1760,
+            "y": -315,
+            "width": 100,
+            "height": 100,
+            "type": "green",
+            "label": "费尔德斯巴的营地",
+            "content": "费尔德斯巴还活着！他的飞船坠毁了，现在正在一条巨大安康鱼的骨架内部扎营。\n我的侦查跟踪器说，侦查兵同时出现在了两个地方。而费尔德斯巴认为跟踪器说得没错。他得出了一个理论，认为那里的空间和黑棘星内部的空间是不一样的。\n听上去费尔德斯巴对于回到文明世界并不十分热衷。他十分享受这种（相对来说）祥和安宁的生活。",
+            "img": "./assets/img/items/费尔德斯巴的营地.png"
+        },
+        {
+            "id": "DB-FrozenJellyfish",
+            "x": 1960,
+            "y": -235,
+            "width": 100,
+            "height": 100,
+            "type": "green",
+            "label": "冻住的水母",
+            "content": "费尔德斯巴曾经多次尝试吃掉这条冰封起来的巨大水母，并把这些内容记录了下来。外皮就像橡胶，根本咬不动。可能是为了起到绝缘的作用，保护水母内部，以免触电。\n费尔德斯巴决定深入水母的内腔，看看里面的味道会不会好吃一些。\n品尝过水母的内部之后，费尔德斯巴得出了结论，这些水母只有在隔绝电流时才有用。",
+            "img": "./assets/img/items/冻住的水母.png"
         }
     ],
     "edges": [
@@ -612,6 +821,90 @@
         {
             "from": "CM-FrozenNomaiShuttle",
             "to": "ET-GravityCannon"
+        },
+        {
+            "from": "GD-GabbrosIsland",
+            "to": "GD-StatueIsland"
+        },
+        {
+            "from": "GD-GabbrosIsland",
+            "to": "OrbitalProbeCannon"
+        },
+        {
+            "from": "GD-GabbrosIsland",
+            "to": "OrbitalProbeCannon"
+        },
+        {
+            "from": "TH-Village",
+            "to": "GD-GabbrosIsland"
+        },
+        {
+            "from": "GD-GabbrosIsland",
+            "to": "GD-OceanDepths"
+        },
+        {
+            "from": "GD-BrambleIsland",
+            "to": "GD-OceanDepths"
+        },
+        {
+            "from": "TH-Village",
+            "to": "TA-EyeSignalLocator"
+        },
+        {
+            "from": "TH-Village",
+            "to": "TA-EskersCamp"
+        },
+        {
+            "from": "TA-EskersCamp",
+            "to": "TA-LunarLookout"
+        },
+        {
+            "from": "TA-EyeSignalLocator",
+            "to": "BH-RiebecksCamp"
+        },
+        {
+            "from": "BH-RiebecksCamp",
+            "to": "BH-SouthernObservatory"
+        },
+        {
+            "from": "TA-EyeSignalLocator",
+            "to": "BH-SouthernObservatory"
+        },
+        {
+            "from": "BH-SouthernObservatory",
+            "to": "OrbitalProbeCannon"
+        },
+        {
+            "from": "GD-ConstructionYard",
+            "to": "BH-SouthernObservatory"
+        },
+        {
+            "from": "GD-ConstructionYard",
+            "to": "OrbitalProbeCannon"
+        },
+        {
+            "from": "GD-ConstructionYard",
+            "to": "BH-TornadoSimulation"
+        },
+        {
+            "from": "TA-LunarLookout",
+            "to": "TH-DarkBrambleSeed"
+        },
+        {
+            "from": "TH-DarkBrambleSeed",
+            "to": "DB-FeldsparsCamp"
+        },
+        {
+            "from": "GD-BrambleIsland",
+            "to": "DB-FeldsparsCamp"
+        },
+        {
+            "from": "GD-ConstructionYard",
+            "to": "GD-OceanDepths"
+        },
+        {
+            "from": "DB-FeldsparsCamp",
+            "to": "DB-FrozenJellyfish"
         }
     ]
 }
