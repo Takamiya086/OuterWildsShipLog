@@ -370,6 +370,8 @@ stage.on('touchstart', (e) => {
     if (touches.length === 2) {
         e.evt.preventDefault(); // 阻止页面默认滚动行为
         isPinching = true;
+        // 防止拖拽
+        contentGroup.draggable(false)
 
         // 1. 计算双指初始距离（勾股定理）
         const [t0, t1] = touches;
@@ -434,4 +436,6 @@ stage.on('touchmove', (e) => {
 
 stage.on('touchend touchcancel', () => {
     isPinching = false; // 结束双指缩放
+    // 恢复拖拽
+    contentGroup.draggable(true)
 });
