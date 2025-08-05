@@ -202,6 +202,12 @@ function drawNodes() {
             showDetail(node)
         })
 
+        // 移动端点击
+        group.on('tap', (e) => {
+            e.cancelBubble = true
+            showDetail(node)
+        })
+
         // ---------------------- 5. 组装节点 ----------------------
         group.add(titleRect)
         group.add(titleText)
@@ -338,6 +344,7 @@ function showDetail(node) {
 
 // 点击空白处关闭弹窗
 stage.on('click', () => { popup.style.display = 'none'; popupContent.textContent = '' });
+stage.on('tap', () => { popup.style.display = 'none'; popupContent.textContent = '' });
 
 // 9. 窗口resize适配
 window.addEventListener('resize', () => {
@@ -346,3 +353,85 @@ window.addEventListener('resize', () => {
     layer.batchDraw();
 });
 
+// 移动端适配
+// 移动端双指缩放状态
+let isPinching = false;       // 是否正在双指缩放
+let startDistance = 0;        // 双指初始距离
+let startScaleX = 1;          // 初始X轴缩放比例
+let startScaleY = 1;          // 初始Y轴缩放比例
+let startMidLocalX = 0;       // 双指中点的初始本地X坐标（contentGroup内）
+let startMidLocalY = 0;       // 双指中点的初始本地Y坐标（contentGroup内）
+const MIN_SCALE = 0.3;        // 最小缩放比例（防止太小）
+const MAX_SCALE = 5;          // 最大缩放比例（防止太大）
+
+stage.on('touchstart', (e) => {
+    const touches = e.evt.touches;
+    // 仅处理双指触摸
+    if (touches.length === 2) {
+        e.evt.preventDefault(); // 阻止页面默认滚动行为
+        isPinching = true;
+
+        // 1. 计算双指初始距离（勾股定理）
+        const [t0, t1] = touches;
+        startDistance = Math.hypot(t1.pageX - t0.pageX, t1.pageY - t0.pageY);
+
+        // 2. 记录内容组的初始缩放比例
+        startScaleX = contentGroup.scaleX();
+        startScaleY = contentGroup.scaleY();
+
+        // 3. 计算双指中点的Stage坐标（屏幕坐标转Stage坐标）
+        const midScreenX = (t0.pageX + t1.pageX) / 2;
+        const midScreenY = (t0.pageY + t1.pageY) / 2;
+        const midStagePos = stage.getPointerPosition({
+            x: midScreenX,
+            y: midScreenY
+        });
+
+        // 4. 将中点转换为contentGroup的本地坐标（去除缩放影响）
+        const contentPos = contentGroup.position();
+        startMidLocalX = (midStagePos.x - contentPos.x) / startScaleX;
+        startMidLocalY = (midStagePos.y - contentPos.y) / startScaleY;
+    }
+});
+
+stage.on('touchmove', (e) => {
+    if (!isPinching) return; // 非双指缩放直接返回
+    const touches = e.evt.touches;
+    if (touches.length !== 2) return; // 确保是双指
+
+    e.evt.preventDefault(); // 阻止页面滚动
+
+    // 1. 计算当前双指距离
+    const [t0, t1] = touches;
+    const currentDistance = Math.hypot(t1.pageX - t0.pageX, t1.pageY - t0.pageY);
+
+    // 2. 计算缩放因子（当前距离 / 初始距离）
+    const scaleFactor = currentDistance / startDistance;
+
+    // 3. 计算新的缩放比例（限制边界）
+    const newScaleX = Math.min(Math.max(startScaleX * scaleFactor, MIN_SCALE), MAX_SCALE);
+    const newScaleY = Math.min(Math.max(startScaleY * scaleFactor, MIN_SCALE), MAX_SCALE);
+
+    // 4. 计算当前双指中点的Stage坐标
+    const midScreenX = (t0.pageX + t1.pageX) / 2;
+    const midScreenY = (t0.pageY + t1.pageY) / 2;
+    const midStagePos = stage.getPointerPosition({
+        x: midScreenX,
+        y: midScreenY
+    });
+
+    // 5. 计算新的位置（保持中点本地坐标不变）
+    const newX = midStagePos.x - startMidLocalX * newScaleX;
+    const newY = midStagePos.y - startMidLocalY * newScaleY;
+
+    // 6. 应用新状态到contentGroup
+    contentGroup.scaleX(newScaleX);
+    contentGroup.scaleY(newScaleY);
+    contentGroup.position({ x: newX, y: newY });
+
+    layer.batchDraw(); // 批量绘制更新
+});
+
+stage.on('touchend touchcancel', () => {
+    isPinching = false; // 结束双指缩放
+});
